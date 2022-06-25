@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProductoCrud.View.ProductoDetail">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Entry Placeholder="Nombre del Producto" x:Name="nombreEntry"/>
+            <Entry Placeholder="Fecha(DD/MM/AAAA)" x:Name="fechaEntry"/>
+            <Entry Placeholder="Cantidad" x:Name="cantidadEntry"/>
+            <Entry Placeholder="¿Esta pagado?(true/false)" x:Name="estadoEntry"/>
+            <Button Text="Save" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
